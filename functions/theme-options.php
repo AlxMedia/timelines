@@ -575,6 +575,20 @@ Kirki::add_field( 'timelines_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Rounded Design
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'rounded-design',
+	'label'			=> esc_html__( 'Rounded Design', 'timelines' ),
+	'description'	=> esc_html__( 'Change border radius of a rounded design', 'timelines' ),
+	'section'		=> 'styling',
+	'default'		=> '0',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '40',
+		'step'	=> '1',
+	),
+) );
 // Styling: Accent Color
 Kirki::add_field( 'timelines_theme', array(
 	'type'			=> 'color',

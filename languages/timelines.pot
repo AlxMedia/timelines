@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-21 16:53+0100\n"
+"POT-Creation-Date: 2024-03-21 18:55+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -655,14 +655,22 @@ msgid "Change color for the logo in light mode"
 msgstr ""
 
 #: functions/theme-options.php:582
+msgid "Rounded Design"
+msgstr ""
+
+#: functions/theme-options.php:583
+msgid "Change border radius of a rounded design"
+msgstr ""
+
+#: functions/theme-options.php:596
 msgid "Accent Color"
 msgstr ""
 
-#: functions/theme-options.php:590
+#: functions/theme-options.php:604
 msgid "Header Color"
 msgstr ""
 
-#: functions/theme-options.php:598
+#: functions/theme-options.php:612
 msgid "Background Color"
 msgstr ""
 
