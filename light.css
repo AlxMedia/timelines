@@ -133,7 +133,8 @@ body:where(.light) .entry .wp-block-calendar td { color: rgba(0,0,0,0.5); }
 
 /* comments */
 body:where(.light) .commentlist .fn { color: #000; }
-body:where(.light) .commentlist .comment-metadata a { color: rgba(0,0,0,0.4); }
+body:where(.light) .commentlist .comment-metadata a,
+body:where(.light) .commentlist .comment-metadata:before { color: rgba(0,0,0,0.4); }
 body:where(.light) .comment-awaiting-moderation { color: #000; }
 
 /* forms */
