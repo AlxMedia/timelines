@@ -48,11 +48,6 @@ Copyright (c) Ken Wheeler
 License: MIT
 Source: http://kenwheeler.github.io/slick/
 
-FitVids
-Copyright (c) Chris Coyier
-License: WTFPL
-Source: http://fitvidsjs.com/
-
 Kirki
 Copyright (c) David Vongries
 License: MIT

@@ -60,6 +60,9 @@ if ( ! function_exists( 'timelines_setup' ) ) {
 		// Enable alignwide and alignfull images and galleries
 		add_theme_support( 'align-wide' );
 		
+		// Enable responsive embeds
+		add_theme_support( 'responsive-embeds' );
+		
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
 				
@@ -194,7 +197,6 @@ if ( ! function_exists( 'timelines_scripts' ) ) {
 	
 	function timelines_scripts() {
 		wp_enqueue_script( 'timelines-slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ),'', false );
-		wp_enqueue_script( 'timelines-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ),'', true );
 		if ( get_theme_mod( 'theme-toggle','on' ) == 'on' ) { wp_enqueue_script( 'timelines-theme-toggle', get_template_directory_uri() . '/js/theme-toggle.js', array( 'jquery' ),'', true ); }
 		wp_enqueue_script( 'timelines-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ),'', true );
 		if ( is_singular() && get_option( 'thread_comments' ) )	{ wp_enqueue_script( 'comment-reply' ); }
@@ -573,38 +575,6 @@ if ( ! function_exists( 'timelines_excerpt_length' ) ) {
 	
 }
 add_filter( 'excerpt_length', 'timelines_excerpt_length', 999 );
-
-
-/*  Add responsive container to embeds
-/* ------------------------------------ */	
-if ( ! function_exists( 'timelines_embed_html' ) ) {
-
-	function timelines_embed_html( $html, $url ) {
-		
-		$pattern    = '/^https?:\/\/(www\.)?twitter\.com/';
-		$is_twitter = preg_match( $pattern, $url );
-		
-		if ( 1 === $is_twitter ) {
-			return $html;
-		}
-	
-		return '<div class="video-container">' . $html . '</div>';
-	}
-
-}
-add_filter( 'embed_oembed_html', 'timelines_embed_html', 10, 3 );
-
-
-/*  Add responsive container to jetpack embeds
-/* ------------------------------------ */	
-if ( ! function_exists( 'timelines_embed_html_jp' ) ) {
-
-	function timelines_embed_html_jp( $html ) {
-		return '<div class="video-container">' . $html . '</div>';
-	}
-
-}
-add_filter( 'video_embed_html', 'timelines_embed_html_jp' );
 
 
 /* ------------------------------------------------------------------------- *
