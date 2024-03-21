@@ -55,16 +55,6 @@ jQuery(document).ready(function($) {
 
 	})();
 	
-/*  Fitvids
-/* ------------------------------------ */
-	function responsiveVideo() {
-			if ( $().fitVids ) {
-				$('#wrapper').fitVids();
-			}	
-		}
-		
-	responsiveVideo();
-
 /*  Slick featured posts
 /* ------------------------------------ */
 	$.fn.randomize = function (selector) {
