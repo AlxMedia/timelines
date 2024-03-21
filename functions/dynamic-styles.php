@@ -136,9 +136,11 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .main-header-single-meta .single-meta-comments,
 .main-header-single-meta .single-meta-comments:after,
 .sidebar .author-bio-name,
-.sidebar .alx-posts > li,
-.sidebar .alx-posts > li .post-item-thumbnail,
-.sidebar .alx-posts > li:after,
+.alx-posts > li,
+.alx-posts > li .post-item-thumbnail,
+.alx-posts > li:after,
+.alx-tabs-nav,
+.alx-tabs-nav:after,
 .sharrre-footer .sharrre .box,
 .themeform input[type="submit"] { border-radius: '.esc_attr( get_theme_mod('rounded-design') ).'px; }
 

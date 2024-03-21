@@ -74,6 +74,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.4 - 2024-03-21 =
+* Fixed rounded design option for alx tabs custom widget
+* Fixed design for alx posts custom widget in footer
+
 = 1.0.3 - 2024-03-21 =
 * Removed unused code
 * Added rounded design styling option

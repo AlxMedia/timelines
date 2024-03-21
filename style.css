@@ -1,7 +1,7 @@
 /*
 Theme Name: Timelines
 Theme URI: http://alx.media/themes/timelines/
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.4
@@ -930,18 +930,6 @@ body.category.paged .category-featured-cards { display: none; }
 
 .sidebar .widget { padding: 20px 20px 0; }
 
-.sidebar .alx-posts > li { background: rgba(255,255,255,0.1); position: relative; margin-bottom: 20px; padding: 0; transition: all 0.3s ease; }
-.sidebar .alx-posts > li:hover { background: rgba(255,255,255,0.15); }
-.sidebar .alx-posts > li:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.15); transition: all 0.3s ease; pointer-events: none; z-index: 1; }
-.sidebar .alx-posts > li:hover:after { border-color: rgba(255,255,255,0.3); }
-.sidebar .alx-posts > li:hover .post-item-title a { color: #fff; }
-.sidebar .alx-posts > li .post-item-thumbnail { margin-bottom: 0; }
-.sidebar .alx-posts > li .post-item-inner { padding: 20px; }
-.sidebar .alx-posts > li .post-item-title { text-transform: uppercase; }
-.sidebar .alx-posts > li .post-item-thumbnail { aspect-ratio: 16/9; overflow: hidden; }
-.sidebar .alx-posts > li .post-item-thumbnail img { transition: all .5s cubic-bezier(0,0,0,1.15); }
-.sidebar .alx-posts > li:hover .post-item-thumbnail img { -ms-transform: scale(1.05); transform: scale(1.05); }
-
 /*  widgets : icons
 /* ------------------------------------ */
 .widget > ul li:before,
@@ -1091,6 +1079,18 @@ body.category.paged .category-featured-cards { display: none; }
 
 .alx-posts .post-item-thumbnail { margin-bottom: 10px; }
 .alx-posts .post-item-title { font-size: 16px; line-height: 1.5em; }
+
+.alx-posts > li { background: rgba(255,255,255,0.1); position: relative; margin-bottom: 20px; padding: 0; transition: all 0.3s ease; }
+.alx-posts > li:hover { background: rgba(255,255,255,0.15); }
+.alx-posts > li:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.15); transition: all 0.3s ease; pointer-events: none; z-index: 1; }
+.alx-posts > li:hover:after { border-color: rgba(255,255,255,0.3); }
+.alx-posts > li:hover .post-item-title a { color: #fff; }
+.alx-posts > li .post-item-thumbnail { margin-bottom: 0; }
+.alx-posts > li .post-item-inner { padding: 20px; }
+.alx-posts > li .post-item-title { text-transform: uppercase; }
+.alx-posts > li .post-item-thumbnail { aspect-ratio: 16/9; overflow: hidden; }
+.alx-posts > li .post-item-thumbnail img { transition: all .5s cubic-bezier(0,0,0,1.15); }
+.alx-posts > li:hover .post-item-thumbnail img { -ms-transform: scale(1.05); transform: scale(1.05); }
 
 
 /* ------------------------------------------------------------------------- *

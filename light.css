@@ -91,11 +91,11 @@ body:where(.light) .alx-posts .post-item-title a { color: #000; }
 body:where(.light) .alx-tab .tab-item-category a:hover, 
 body:where(.light) .alx-posts .post-item-category a:hover { color: #000!important; }
 
-body:where(.light) .sidebar .alx-posts > li { background: #fff; }
-body:where(.light) .sidebar .alx-posts > li:hover { background: #fff; }
-body:where(.light) .sidebar .alx-posts > li:after { border: 1px solid rgba(0,0,0,0.1); }
-body:where(.light) .sidebar .alx-posts > li:hover:after { border-color: rgba(0,0,0,0.16); box-shadow: 0 0 20px rgba(0,0,0,0.16); }
-body:where(.light) .sidebar .alx-posts > li:hover .post-item-title a { color: #000; }
+body:where(.light) .alx-posts > li { background: #fff; }
+body:where(.light) .alx-posts > li:hover { background: #fff; }
+body:where(.light) .alx-posts > li:after { border: 1px solid rgba(0,0,0,0.1); }
+body:where(.light) .alx-posts > li:hover:after { border-color: rgba(0,0,0,0.16); box-shadow: 0 0 20px rgba(0,0,0,0.16); }
+body:where(.light) .alx-posts > li:hover .post-item-title a { color: #000; }
 
 body:where(.light) .main-header-single::after { border: 1px solid rgba(0,0,0,0.08); }
 body:where(.light) .main-header-single-meta { box-shadow: 0 -1px 0 rgba(0,0,0,0.1); }
