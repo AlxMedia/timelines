@@ -1,5 +1,3 @@
-<?php $format = get_post_format(); ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class('article-card'); ?>>
 	<div class="list-card">
 		<div class="list-card-wrap">

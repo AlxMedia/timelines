@@ -1,5 +1,3 @@
-<?php $format = get_post_format(); ?>
-
 <div class="featured-card">
 
 	<div class="featured-card-image-wrapper">

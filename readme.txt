@@ -74,6 +74,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2024-03-21 =
+* Removed unused code
+* Added rounded design styling option
+
 = 1.0.2 - 2024-03-21 =
 * Updated theme description
 * Removed unused javascript
