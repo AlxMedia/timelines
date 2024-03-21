@@ -74,5 +74,13 @@ Sidebar images
 
 == Changelog ==
 
-= 1.0.0 - 2023-03-20 =
+= 1.0.1 - 2024-03-21 =
+* Added theme support for HTML5 semantic markup
+* Added theme support for responsive embeds
+* Removed fitvids js from theme and readme
+* Changed tested up to version
+* Tweaked some CSS for comment elements and widgets
+* Updated language files
+
+= 1.0.0 - 2024-03-20 =
 * Initial release
