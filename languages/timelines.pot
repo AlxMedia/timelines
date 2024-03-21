@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-21 15:29+0100\n"
+"POT-Creation-Date: 2024-03-21 16:53+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -79,19 +79,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:650
+#: functions.php:663
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:654
+#: functions.php:667
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:658
+#: functions.php:671
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:662
+#: functions.php:675
 msgid "WP-PageNavi"
 msgstr ""
 

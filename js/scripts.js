@@ -4,7 +4,7 @@
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	
-	Copyright: (c) 2013 Alexander "Alx" Agnarson, http://alx.media
+	Copyright: (c) 2024 Alexander "Alx" Agnarson, http://alx.media
 */
 
 "use strict";
@@ -127,17 +127,6 @@ jQuery(document).ready(function($) {
 	  ]
 	});
 	$('.slick-posts').show();	
-
-/*  Slick image slide
-/* ------------------------------------ */	
-	$('.slick-image-slide').each( function() {
-        $( this ).slick( {
-            dots: false,
-			adaptiveHeight: true,
-            appendArrows: $(this).parents('.slick-image-slide-wrapper').find('.slick-image-slide-nav'),
-			appendDots: $(this).parents('.slick-image-slide-wrapper').find('.slick-image-slide-dots')
-        } );
-    } );
 
 /*  Trap focus
 /* ------------------------------------ */	

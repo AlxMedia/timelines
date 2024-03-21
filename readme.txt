@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. You can enable a light/dark theme toggle switch in the subheader. Demo: http://demo.alx.media/x/?theme=Timelines
+Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique double-sidebar design. Demo: http://demo.alx.media/x/?theme=Timelines
 
 == Installation ==
 
@@ -73,6 +73,11 @@ Sidebar images
 1. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.2 - 2024-03-21 =
+* Updated theme description
+* Removed unused javascript
+* Changed default comments template avatar size
 
 = 1.0.1 - 2024-03-21 =
 * Added theme support for HTML5 semantic markup
