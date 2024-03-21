@@ -63,9 +63,12 @@ if ( ! function_exists( 'timelines_setup' ) ) {
 		// Enable responsive embeds
 		add_theme_support( 'responsive-embeds' );
 		
+		// Enable HTML5 semantic markup
+		add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
+		
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
-				
+		
 		// Enable support for selective refresh of widgets in customizer
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		

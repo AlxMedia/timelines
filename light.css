@@ -63,10 +63,12 @@ body:where(.light) .post-nav li a:hover span { color: rgba(0,0,0,0.7);  }
 body:where(.light) .post-nav li a strong { color: rgba(0,0,0,0.5); }
 
 body:where(.light) .small-heading,
-body:where(.light) .widget > h3 { color: rgba(0,0,0,0.4); }
+body:where(.light) .widget > h3,
+body:where(.light) .widget .wp-block-heading { color: rgba(0,0,0,0.4); }
 
 body:where(.light) .small-heading:after,
-body:where(.light) .widget > h3:after { background: rgba(0,0,0,0.1); }
+body:where(.light) .widget > h3:after,
+body:where(.light) .widget .wp-block-heading:after { background: rgba(0,0,0,0.1); }
 
 body:where(.light) .author-bio-image { background: linear-gradient(0deg, #e5e5e5 0%, #fff 100%); }
 body:where(.light) .author-bio-name { background: #fff; color: #000; }
@@ -131,7 +133,7 @@ body:where(.light) .entry .wp-block-calendar td { color: rgba(0,0,0,0.5); }
 
 /* comments */
 body:where(.light) .commentlist .fn { color: #000; }
-body:where(.light) .commentlist .comment-meta a { color: rgba(0,0,0,0.4); }
+body:where(.light) .commentlist .comment-metadata a { color: rgba(0,0,0,0.4); }
 body:where(.light) .comment-awaiting-moderation { color: #000; }
 
 /* forms */
@@ -144,7 +146,9 @@ body:where(.light) .themeform.searchform div:after { color: rgba(0,0,0,0.4) }
 
 /* widgets */
 body:where(.light) .widget > h3 a,
-body:where(.light) .widget > h3 a:hover { color: rgba(0,0,0,0.4); }
+body:where(.light) .widget > h3 a:hover,
+body:where(.light) .widget .wp-block-heading a,
+body:where(.light) .widget .wp-block-heading a:hover { color: rgba(0,0,0,0.4); }
 body:where(.light) .widget > ul li:before,
 body:where(.light) .widget > ul li a:before,
 body:where(.light) .widget > div > ul li a:before,

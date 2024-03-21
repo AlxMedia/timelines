@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-21 15:00+0100\n"
+"POT-Creation-Date: 2024-03-21 15:29+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -39,59 +39,59 @@ msgstr ""
 msgid "Theme by"
 msgstr ""
 
-#: functions.php:86
+#: functions.php:89
 msgid "Mobile"
 msgstr ""
 
-#: functions.php:87 functions/theme-options.php:52
+#: functions.php:90 functions/theme-options.php:52
 msgid "Header"
 msgstr ""
 
-#: functions.php:181
+#: functions.php:184
 msgid "Primary"
 msgstr ""
 
-#: functions.php:181 functions.php:182
+#: functions.php:184 functions.php:185
 msgid "Normal full width sidebar"
 msgstr ""
 
-#: functions.php:182
+#: functions.php:185
 msgid "Secondary"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:187
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:184 functions.php:185 functions.php:186 functions.php:187
+#: functions.php:187 functions.php:188 functions.php:189 functions.php:190
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:185
+#: functions.php:188
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:186
+#: functions.php:189
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:187
+#: functions.php:190
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:647
+#: functions.php:650
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:651
+#: functions.php:654
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:655
+#: functions.php:658
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:659
+#: functions.php:662
 msgid "WP-PageNavi"
 msgstr ""
 
