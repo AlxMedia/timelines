@@ -74,6 +74,11 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.5 - 2024-03-22 =
+* Added background color tone styling options
+* Fixed header background styling option menu dropdown text color
+* Updated language files
+
 = 1.0.4 - 2024-03-21 =
 * Fixed rounded design option for alx tabs custom widget
 * Fixed design for alx posts custom widget in footer

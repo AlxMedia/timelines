@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-21 19:36+0100\n"
+"POT-Creation-Date: 2024-03-22 19:15+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -671,7 +671,15 @@ msgid "Header Color"
 msgstr ""
 
 #: functions/theme-options.php:612
-msgid "Background Color"
+msgid "Dark Background Tone"
+msgstr ""
+
+#: functions/theme-options.php:620
+msgid "Darker Background Tone"
+msgstr ""
+
+#: functions/theme-options.php:628
+msgid "Boxed Background Color"
 msgstr ""
 
 #: header.php:25

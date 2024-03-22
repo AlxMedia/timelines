@@ -605,11 +605,27 @@ Kirki::add_field( 'timelines_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#2d333c',
 ) );
+// Styling: Dark Background Tone
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'dark-background-tone',
+	'label'			=> esc_html__( 'Dark Background Tone', 'timelines' ),
+	'section'		=> 'styling',
+	'default'		=> '#2d333c',
+) );
+// Styling: Darker Background Tone
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'darker-background-tone',
+	'label'			=> esc_html__( 'Darker Background Tone', 'timelines' ),
+	'section'		=> 'styling',
+	'default'		=> '#171d25',
+) );
 // Styling: Background Color
 Kirki::add_field( 'timelines_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-background',
-	'label'			=> esc_html__( 'Background Color', 'timelines' ),
+	'label'			=> esc_html__( 'Boxed Background Color', 'timelines' ),
 	'section'		=> 'styling',
-	'default'		=> '#ffffff',
+	'default'		=> '#2d333c',
 ) );

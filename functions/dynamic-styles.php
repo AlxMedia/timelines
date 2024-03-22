@@ -217,6 +217,15 @@ body:where(.light) .main-content { background: #fff; }
 .nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
 .nav-menu:not(.mobile) li.current-post-parent > span > a { color: #fff!important; }
 
+body:where(.dark) .nav-menu:not(.mobile) li li a { color: rgba(0,0,0,0.6)!important; }
+body:where(.dark) .nav-menu:not(.mobile) li li a:hover { color: #000!important; }
+body:where(.dark) .nav-menu:not(.mobile) li li button.active { background: rgba(0,0,0,0.06)!important; }
+body:where(.dark) .nav-menu:not(.mobile) li li button .svg-icon { fill: rgba(0,0,0,0.3)!important; }
+body:where(.dark) .nav-menu:not(.mobile) li li.current_page_item > span > a, 
+body:where(.dark) .nav-menu:not(.mobile) li li.current-menu-item > span > a, 
+body:where(.dark) .nav-menu:not(.mobile) li li.current-menu-ancestor > span > a, 
+body:where(.dark) .nav-menu:not(.mobile) li li.current-post-parent > span > a { color: #000!important; }
+
 .nav-menu.mobile { border-top: 1px solid rgba(255,255,255,0.1)!important; }
 .nav-menu.mobile button.active .svg-icon { fill: #fff!important; }
 .nav-menu.mobile ul ul { background: rgba(255,255,255,0.05)!important; }
@@ -232,8 +241,36 @@ body:where(.light) .main-content { background: #fff; }
 .menu-toggle:focus { background: rgba(255,255,255,0.06)!important; }
 				'."\n";
 			}
-			// background color
-			if ( get_theme_mod('color-background','#ffffff') != '#ffffff' ) {
+			// dark background tone
+			if ( get_theme_mod('dark-background-tone','#2d333c') != '#2d333c' ) {
+				$styles .= '
+body:where(.dark) #wrapper,
+body:where(.dark) #header,
+body:where(.dark) .main-content,
+body:where(.dark) .author-bio-name,
+body:where(.dark) .sidebar .post-nav li a i { background: '.esc_attr( get_theme_mod('dark-background-tone') ).'; }
+body:where(.dark) .sticky-heading-alt { background: '.esc_attr( get_theme_mod('dark-background-tone') ).'!important; }
+body:where(.dark) .author-bio-name:after { border-bottom-color: '.esc_attr( get_theme_mod('dark-background-tone') ).'; }
+body:where(.dark) .main-header,
+body:where(.dark) .author-bio-image { background: linear-gradient(0deg, '.esc_attr( get_theme_mod('darker-background-tone') ).' 0%, '.esc_attr( get_theme_mod('dark-background-tone') ).' 100%); }
+.sticky-heading a { color: '.esc_attr( get_theme_mod('dark-background-tone') ).'; }
+				'."\n";
+			}
+			// darker background tone
+			if ( get_theme_mod('darker-background-tone','#171d25') != '#171d25' ) {
+				$styles .= '
+body:where(.dark) .main-container,
+body:where(.dark) .sticky-heading,
+body:where(.dark) .right-sidebar,
+body:where(.dark) #footer,
+body:where(.dark) .wp-pagenavi a { background: '.esc_attr( get_theme_mod('darker-background-tone') ).'; }
+body:where(.dark) .main-header,
+body:where(.dark) .author-bio-image { background: linear-gradient(0deg, '.esc_attr( get_theme_mod('darker-background-tone') ).' 0%, '.esc_attr( get_theme_mod('dark-background-tone') ).' 100%); }
+body:where(.dark) .main-header-single-meta:after { background: linear-gradient(0deg, '.esc_attr( get_theme_mod('darker-background-tone') ).' 0%, rgba(255,255,255,0) 100%); }
+				'."\n";
+			}
+			// boxed background color
+			if ( get_theme_mod('color-background','#2d333c') != '#2d333c' ) {
 				$styles .= '
 body { background: '.esc_attr( get_theme_mod('color-background') ).'!important; }
 				'."\n";
