@@ -74,6 +74,13 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.7 - 2024-03-23 =
+* Added styling option to fade in left and right side of featured carousel
+* Added styling option to unstick the header
+* Fixed theme toggle body class issue
+* Fixed comment count showing on top of year heading 
+* Updated language files
+
 = 1.0.6 - 2024-03-23 =
 * Removed unused code from functions.php
 * Updated language files
