@@ -742,7 +742,7 @@ body.category.paged .category-featured-cards { display: none; }
 .category-featured-cards .featured-card-outer:nth-child(1) .featured-card { margin-right: 10px; }
 .category-featured-cards .featured-card-outer:nth-child(2) .featured-card { margin-left: 10px; }
 
-.card-comments { background: #1a9fff; color: #fff; padding: 1px 8px; position: absolute; right: 0; bottom: 0; z-index: 2; transition: all 0.2s ease; }
+.card-comments { background: #1a9fff; color: #fff; padding: 1px 8px; position: absolute; right: 0; bottom: 0; transition: all 0.2s ease; }
 .card-comments:hover span { padding-right: 10px; }
 .card-comments span { color: #fff; font-size: 12px; font-weight: 600; transition: all 0.2s ease; }
 .card-comments i { color: #fff; margin-right: 4px; position: relative; top: 2px; }
