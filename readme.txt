@@ -74,6 +74,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.6 - 2024-03-23 =
+* Removed unused code from functions.php
+* Updated language files
+
 = 1.0.5 - 2024-03-22 =
 * Added background color tone styling options
 * Fixed header background styling option menu dropdown text color

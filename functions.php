@@ -228,47 +228,6 @@ add_action( 'wp_enqueue_scripts', 'timelines_styles' );
  *  Template functions
 /* ------------------------------------------------------------------------- */	
 
-/*  Layout class
-/* ------------------------------------ */
-if ( ! function_exists( 'timelines_layout_class' ) ) {
-	
-	function timelines_layout_class() {
-		// Default layout
-		$layout = 'col-2cl';
-		$default = 'col-2cl';
-
-		// Check for page/post specific layout
-		if ( is_page() || is_single() ) {
-			// Reset post data
-			wp_reset_postdata();
-			global $post;
-			// Get meta
-			$meta = get_post_meta($post->ID,'_layout',true);
-			// Get if set and not set to inherit
-			if ( isset($meta) && !empty($meta) && $meta != 'inherit' ) { $layout = $meta; }
-			// Else check for page-global / single-global
-			elseif ( is_single() && ( get_theme_mod('layout-single','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-single',''.$default.'');
-			elseif ( is_page() && ( get_theme_mod('layout-page','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-page',''.$default.'');
-			// Else get global option
-			else $layout = get_theme_mod('layout-global',''.$default.'');
-		}
-		
-		// Set layout based on page
-		elseif ( is_home() && ( get_theme_mod('layout-home','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-home',''.$default.'');
-		elseif ( is_category() && ( get_theme_mod('layout-archive-category','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-archive-category',''.$default.'');
-		elseif ( is_archive() && ( get_theme_mod('layout-archive','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-archive',''.$default.'');
-		elseif ( is_search() && ( get_theme_mod('layout-search','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-search',''.$default.'');
-		elseif ( is_404() && ( get_theme_mod('layout-404','inherit') !='inherit' ) ) $layout = get_theme_mod('layout-404',''.$default.'');
-		
-		// Global option
-		else $layout = get_theme_mod('layout-global',''.$default.'');
-		
-		// Return layout class
-		return esc_attr( $layout );
-	}
-	
-}
-
 
 /*  Dynamic sidebar primary
 /* ------------------------------------ */
@@ -478,30 +437,6 @@ if ( ! function_exists( 'timelines_related_posts' ) ) {
 }
 
 
-/*  Get images attached to post
-/* ------------------------------------ */
-if ( ! function_exists( 'timelines_post_images' ) ) {
-
-	function timelines_post_images( $args=array() ) {
-		global $post;
-
-		$defaults = array(
-			'numberposts'		=> -1,
-			'order'				=> 'ASC',
-			'orderby'			=> 'menu_order',
-			'post_mime_type'	=> 'image',
-			'post_parent'		=>  $post->ID,
-			'post_type'			=> 'attachment',
-		);
-
-		$args = wp_parse_args( $args, $defaults );
-
-		return get_posts( $args );
-	}
-	
-}
-
-
 /*  Get featured post ids
 /* ------------------------------------ */
 if ( ! function_exists( 'timelines_get_featured_post_ids' ) ) {
@@ -530,10 +465,10 @@ if ( ! function_exists( 'timelines_get_featured_post_ids' ) ) {
 if ( ! function_exists( 'timelines_body_class' ) ) {
 	
 	function timelines_body_class( $classes ) {
-		$classes[] = timelines_layout_class();
 		if ( get_theme_mod( 'boxed','off' ) != 'on' ) { $classes[] = 'full-width'; }
 		if ( get_theme_mod( 'boxed','off' ) == 'on' ) { $classes[] = 'boxed'; }
 		if ( has_nav_menu( 'mobile' ) ) { $classes[] = 'mobile-menu'; }
+		if ( get_theme_mod( 'light-theme' ,'off' ) != 'on' ) { $classes[] = 'dark'; }
 		if ( get_theme_mod( 'light-theme' ,'off' ) == 'on' ) { $classes[] = 'light'; }
 		if ( get_theme_mod( 'invert-logo' ,'on' ) == 'on' ) { $classes[] = 'invert-light-logo'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
