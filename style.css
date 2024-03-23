@@ -428,6 +428,8 @@ body.boxed #header { max-width: 1680px; }
 #wrapper { background: #2d333c; }
 #header { background: #2d333c; border-bottom: 1px solid rgba(255,255,255,0.06); margin: 0 auto; position: fixed; top: 0; left: 0; right: 0; z-index: 99; box-sizing: border-box; padding: 0 40px; }
 .admin-bar #header { top: 32px; }
+body.unstick-header #header { position: relative; top: 0; }
+body.unstick-header .grid-container { padding-top: 0; }
 
 .grid-container { display: grid; grid-template-columns: repeat(16,minmax(0,1fr)); margin: 0 auto; position: relative; padding-top: 80px; box-sizing: border-box; }
 

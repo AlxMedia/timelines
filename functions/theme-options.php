@@ -575,6 +575,15 @@ Kirki::add_field( 'timelines_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Unstick Header
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'unstick-header',
+	'label'			=> esc_html__( 'Unstick Header', 'timelines' ),
+	'description'	=> esc_html__( 'Remove sticky header from 920px+ screens', 'timelines' ),
+	'section'		=> 'styling',
+	'default'		=> 'off',
+) );
 // Styling: Rounded Design
 Kirki::add_field( 'timelines_theme', array(
 	'type'			=> 'slider',

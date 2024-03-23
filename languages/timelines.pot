@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-23 14:23+0100\n"
+"POT-Creation-Date: 2024-03-23 15:23+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -79,19 +79,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:598
+#: functions.php:599
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:602
+#: functions.php:603
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:606
+#: functions.php:607
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:610
+#: functions.php:611
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -655,30 +655,38 @@ msgid "Change color for the logo in light mode"
 msgstr ""
 
 #: functions/theme-options.php:582
-msgid "Rounded Design"
+msgid "Unstick Header"
 msgstr ""
 
 #: functions/theme-options.php:583
+msgid "Remove sticky header from 920px+ screens"
+msgstr ""
+
+#: functions/theme-options.php:591
+msgid "Rounded Design"
+msgstr ""
+
+#: functions/theme-options.php:592
 msgid "Change border radius of a rounded design"
 msgstr ""
 
-#: functions/theme-options.php:596
+#: functions/theme-options.php:605
 msgid "Accent Color"
 msgstr ""
 
-#: functions/theme-options.php:604
+#: functions/theme-options.php:613
 msgid "Header Color"
 msgstr ""
 
-#: functions/theme-options.php:612
+#: functions/theme-options.php:621
 msgid "Dark Background Tone"
 msgstr ""
 
-#: functions/theme-options.php:620
+#: functions/theme-options.php:629
 msgid "Darker Background Tone"
 msgstr ""
 
-#: functions/theme-options.php:628
+#: functions/theme-options.php:637
 msgid "Boxed Background Color"
 msgstr ""
 
