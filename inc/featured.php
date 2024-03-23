@@ -14,21 +14,25 @@ $featured = new WP_Query(
 
 <?php if ( is_home() && !is_paged() && ( get_theme_mod('featured-posts-count','5') !='0') && $featured->have_posts() ): // Show slider if posts are not 0 ?>
 
-<div class="slick-featured">
-
-	<div class="slick-posts">
-
-		<?php while ( $featured->have_posts() ): $featured->the_post(); ?>
-			<div>	
-				<?php get_template_part('content-featured'); ?>
-			</div>
-		<?php endwhile; ?>
+	<div class="slick-featured">
 		
+		<div class="slick-featured-inner">
+		
+			<div class="slick-posts">
+
+				<?php while ( $featured->have_posts() ): $featured->the_post(); ?>
+					<div>	
+						<?php get_template_part('content-featured'); ?>
+					</div>
+				<?php endwhile; ?>
+				
+			</div>
+		
+		</div>
+		
+		<div class="slick-posts-nav"></div>
+
 	</div>
-
-	<div class="slick-posts-nav"></div>
-
-</div>
 
 <?php endif; ?>
 

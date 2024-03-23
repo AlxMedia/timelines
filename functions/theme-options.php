@@ -584,6 +584,15 @@ Kirki::add_field( 'timelines_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'off',
 ) );
+// Styling: Featured Posts Fade-in
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'featured-fade',
+	'label'			=> esc_html__( 'Featured Posts Fade-in', 'timelines' ),
+	'description'	=> esc_html__( 'Fade left and right side of carousel', 'timelines' ),
+	'section'		=> 'styling',
+	'default'		=> 'off',
+) );
 // Styling: Rounded Design
 Kirki::add_field( 'timelines_theme', array(
 	'type'			=> 'slider',

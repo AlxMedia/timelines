@@ -701,7 +701,8 @@ body.search .page .list-card-date { display: none; }
 .slick-posts { display: none; padding-top: 20px; padding-bottom: 20px; overflow: hidden; }
 .slick-posts:after { content: ""; height: 30px; width: 100%; bottom: 0; position: absolute; left: 0; right: 0; pointer-events: none; }
 .slick-featured { position: relative; }
-.slick-featured .slick-posts-nav { position: absolute; width: 100%; top: 50%; margin-top: -20px; pointer-events: none; }
+body.featured-fade .slick-featured-inner { position: relative; mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent 100% ); }
+.slick-featured .slick-posts-nav { position: absolute; width: 100%; top: 50%; margin-top: -20px; pointer-events: none; z-index: 2; }
 .slick-featured .slick-posts-nav .slick-prev { float: left; pointer-events: auto; }
 .slick-featured .slick-posts-nav .slick-next { float: right; pointer-events: auto; }
 .slick-featured .slick-posts-nav .slick-prev,

@@ -39,6 +39,7 @@
 }
 
 @media only screen and (max-width: 719px) {
+	body.featured-fade .slick-featured-inner { mask-image: none; }
 	.slick-posts-nav .slick-prev, 
 	.slick-posts-nav .slick-next { margin-left: 0; margin-right: 0; }
 	.featured-card-content { padding: 20px; }

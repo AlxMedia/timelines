@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-23 15:23+0100\n"
+"POT-Creation-Date: 2024-03-23 18:16+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -663,30 +663,38 @@ msgid "Remove sticky header from 920px+ screens"
 msgstr ""
 
 #: functions/theme-options.php:591
-msgid "Rounded Design"
+msgid "Featured Posts Fade-in"
 msgstr ""
 
 #: functions/theme-options.php:592
+msgid "Fade left and right side of carousel"
+msgstr ""
+
+#: functions/theme-options.php:600
+msgid "Rounded Design"
+msgstr ""
+
+#: functions/theme-options.php:601
 msgid "Change border radius of a rounded design"
 msgstr ""
 
-#: functions/theme-options.php:605
+#: functions/theme-options.php:614
 msgid "Accent Color"
 msgstr ""
 
-#: functions/theme-options.php:613
+#: functions/theme-options.php:622
 msgid "Header Color"
 msgstr ""
 
-#: functions/theme-options.php:621
+#: functions/theme-options.php:630
 msgid "Dark Background Tone"
 msgstr ""
 
-#: functions/theme-options.php:629
+#: functions/theme-options.php:638
 msgid "Darker Background Tone"
 msgstr ""
 
-#: functions/theme-options.php:637
+#: functions/theme-options.php:646
 msgid "Boxed Background Color"
 msgstr ""
 

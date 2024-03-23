@@ -468,10 +468,10 @@ if ( ! function_exists( 'timelines_body_class' ) ) {
 		if ( get_theme_mod( 'boxed','off' ) != 'on' ) { $classes[] = 'full-width'; }
 		if ( get_theme_mod( 'boxed','off' ) == 'on' ) { $classes[] = 'boxed'; }
 		if ( has_nav_menu( 'mobile' ) ) { $classes[] = 'mobile-menu'; }
-		if ( get_theme_mod( 'light-theme' ,'off' ) != 'on' ) { $classes[] = 'dark'; }
 		if ( get_theme_mod( 'light-theme' ,'off' ) == 'on' ) { $classes[] = 'light'; }
 		if ( get_theme_mod( 'invert-logo' ,'on' ) == 'on' ) { $classes[] = 'invert-light-logo'; }
 		if ( get_theme_mod( 'unstick-header' ,'off' ) == 'on' ) { $classes[] = 'unstick-header'; }
+		if ( get_theme_mod( 'featured-fade' ,'off' ) == 'on' ) { $classes[] = 'featured-fade'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}
