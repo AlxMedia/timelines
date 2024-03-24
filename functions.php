@@ -471,7 +471,7 @@ if ( ! function_exists( 'timelines_body_class' ) ) {
 		if ( get_theme_mod( 'light-theme' ,'off' ) == 'on' ) { $classes[] = 'light'; }
 		if ( get_theme_mod( 'invert-logo' ,'on' ) == 'on' ) { $classes[] = 'invert-light-logo'; }
 		if ( get_theme_mod( 'unstick-header' ,'off' ) == 'on' ) { $classes[] = 'unstick-header'; }
-		if ( get_theme_mod( 'featured-fade' ,'off' ) == 'on' ) { $classes[] = 'featured-fade'; }
+		if ( get_theme_mod( 'featured-fade' ,'on' ) == 'on' ) { $classes[] = 'featured-fade'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}
