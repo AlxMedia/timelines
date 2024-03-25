@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique double-sidebar design. Demo: http://demo.alx.media/x/?theme=Timelines
+Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique responsive double sidebar design, including dark/light mode. With extensive styling options you can make your own design, changing to unlimited background and accent colors, add element border radius and much more. Demo: http://demo.alx.media/x/?theme=Timelines
 
 == Installation ==
 
@@ -58,11 +58,11 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
 Carousel images
-1. https://stocksnap.io/photo/TVMNBUOZP7 - CC0 1.0 Universal (CC0 1.0)
-2. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
-3. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
-4. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
-5. https://stocksnap.io/photo/73MWYOFO4W - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/73MWYOFO4W - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/TVMNBUOZP7 - CC0 1.0 Universal (CC0 1.0)
 
 Content images
 1. https://stocksnap.io/photo/TVMNBUOZP7 - CC0 1.0 Universal (CC0 1.0)
@@ -73,6 +73,10 @@ Sidebar images
 1. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.8 - 2024-03-25 =
+* Updated theme description
+* Updated screenshot
 
 = 1.0.7 - 2024-03-23 =
 * Added styling option to fade in left and right side of featured carousel
