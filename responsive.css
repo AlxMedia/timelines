@@ -7,6 +7,18 @@
 	.sidebar .widget { padding: 20px 40px 10px; }
 	.sidebar .small-heading { padding-left: 40px; padding-right: 40px; }
 	.sidebar .related-posts { margin: 0 20px; }
+	
+	.subheader,
+	.main-header-single	{ margin-left: 40px; margin-right: 40px; }
+	.main-header-single { margin-bottom: 40px; }
+	.sticky-heading,
+	.notebox,
+	.category-featured-cards,
+	.list-card { padding-left: 40px; padding-right: 40px; }
+	.main-header-single-meta { left: 40px; right: 40px; }
+	.category-featured-cards .featured-card-outer { margin-bottom: 40px; }
+	.category-featured-cards .featured-card-outer:nth-child(1) .featured-card { margin-right: 20px; }
+	.category-featured-cards .featured-card-outer:nth-child(2) .featured-card { margin-left: 20px; }
 }
 
 @media only screen and (min-width: 768px) {
