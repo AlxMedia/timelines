@@ -74,6 +74,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.9 - 2024-03-26 =
+* Added more content padding for 1680px+ screens
+* Updated screenshot
+
 = 1.0.8 - 2024-03-25 =
 * Updated theme description
 * Updated screenshot
