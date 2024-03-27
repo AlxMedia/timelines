@@ -28,6 +28,12 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 	
+/*  Parallax single post featured image
+/* ------------------------------------ */		
+	$(window).scroll(function () {
+		$(".main-header-single").css("background-position","center " + ($(this).scrollTop() / 25 + 50) + "%");
+	});	
+	
 /*  Tabs widget
 /* ------------------------------------ */	
 	(function() {

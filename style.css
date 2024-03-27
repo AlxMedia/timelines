@@ -1,7 +1,7 @@
 /*
 Theme Name: Timelines
 Theme URI: http://alx.media/themes/timelines/
-Version: 1.0.9
+Version: 1.1.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.4
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: 300; -ms-word-wrap: break-wor
 
 /*  common : thumb icon
 /* ------------------------------------ */
-.thumb-icon { background: rgba(0,0,0,0.7); color: #fff; text-align: center; display: block; width: 32px; height: 32px; position: absolute; bottom: 50%; left: 50%; margin-left: -16px; margin-bottom: -16px; -webkit-border-radius: 4px; border-radius: 4px; transition: all 0.7s ease; box-shadow: 0 0 2px rgba(255,255,255,0.4); transform: rotate(45deg); }
+.thumb-icon { display: none; background: rgba(0,0,0,0.7); color: #fff; text-align: center; width: 32px; height: 32px; position: absolute; bottom: 50%; left: 50%; margin-left: -16px; margin-bottom: -16px; -webkit-border-radius: 4px; border-radius: 4px; transition: all 0.7s ease; box-shadow: 0 0 2px rgba(255,255,255,0.4); transform: rotate(45deg); }
 .thumb-icon i { font-size: 18px; padding: 7px 0; transform: rotate(-45deg); }
 .thumb-icon .fa-play { margin: -1px 0 0 2px; }
 .thumb-icon.small { width: 24px; height: 24px; position: absolute; bottom: 50%; left: 50%; margin: 0 0 -12px -12px; border-radius: 3px; }
@@ -441,11 +441,11 @@ body.unstick-header .grid-container { padding-top: 0; }
 
 .main-header { background: linear-gradient(0deg, #171d25 0%, #2d333c 100%); }
 .main-header-single-wrap { position: relative; }
-.main-header-single { display: block; margin: 20px; height: 480px; background-position: center; background-size: cover; position: relative; z-index: 2; overflow: hidden; position: relative; }
+.main-header-single { transition: 0s linear; transition-property: background-position; display: block; margin: 20px; height: 480px; background-position: center; background-size: cover; position: relative; z-index: 2; overflow: hidden; position: relative; }
 .main-header-single:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.15); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 .main-header-single-grad { display: none; background: linear-gradient(0deg, rgba(23,29,37,0.8) 0%, rgba(255,255,255,0) 100%); height: 120px; position: absolute; bottom: 0; left: 0; right: 0; z-index: 1; }
 .main-header-single-title { max-width: 840px; position: absolute; left: 0; bottom: 80px; padding: 40px; z-index: 3; }
-.main-header-single-title h1 { font-size: 52px; line-height: 1.1; letter-spacing: -0.02em; color: #fff; font-weight: 800; text-shadow: 0 0 80px rgba(0,0,0,0.8); }
+.main-header-single-title h1 { font-size: 52px; line-height: 1.1; letter-spacing: -0.02em; color: #fff; font-weight: 800; text-shadow: 0 0 80px rgba(0,0,0,0.8), 0 1px 0 rgba(0,0,0,0.4); }
 .main-header-single-meta { backdrop-filter: blur(10px) brightness(100%); -webkit-backdrop-filter: blur(10px) brightness(100%); border-top: 1px solid rgba(255,255,255,0.2); box-shadow: 0 -1px 0 rgba(0,0,0,0.2); position: absolute; bottom: 0; left: 20px; right: 20px; height: 80px; z-index: 2; overflow: hidden; }
 .main-header-single-meta:after { background: linear-gradient(0deg, #171d25 0%, rgba(255,255,255,0) 100%); content:""; display: block; position: absolute; bottom: 0; left: 0; right: 0; height: 140px; z-index: 0; pointer-events: none; }
 .main-header-single-meta li { float: left; height: 60px; position: relative; margin: 10px 0 10px 10px; z-index: 9; }
@@ -839,7 +839,7 @@ body.category.paged .category-featured-cards { display: none; }
 .sharrre-header .sharrre .share { color: rgba(255,255,255,0.75); width: 20%; margin-left: 10%; display: block; font-size: 24px; font-weight: 600; line-height: 32px; padding: 0; text-align: center; text-decoration: none; }
 .sharrre-header .sharrre .share,
 .sharrre-header .sharrre .count,
-.sharrre-header .sharrre .count:after { float: left; -webkit-transition: all .3s ease; transition: all .3s ease; text-shadow: 0 0 40px rgba(0,0,0,0.8); position: relative; z-index: 9; }
+.sharrre-header .sharrre .count:after { float: left; -webkit-transition: all .3s ease; transition: all .3s ease; text-shadow: 0 0 40px rgba(0,0,0,0.8), 0 1px 0 rgba(0,0,0,0.2); position: relative; z-index: 9; }
 
 /*  single : sharrre footer
 /* ------------------------------------ */
