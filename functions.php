@@ -405,7 +405,7 @@ if ( ! function_exists( 'timelines_related_posts' ) ) {
 			'posts_per_page'			=> 3
 		);
 		// Related by categories
-		if ( get_theme_mod('related-posts') == 'categories' ) {
+		if ( get_theme_mod( 'related-posts','categories' ) == 'categories' ) {
 			
 			$cats = get_post_meta($post->ID, 'related-cat', true);
 			
@@ -417,7 +417,7 @@ if ( ! function_exists( 'timelines_related_posts' ) ) {
 			}
 		}
 		// Related by tags
-		if ( get_theme_mod('related-posts') == 'tags' ) {
+		if ( get_theme_mod( 'related-posts','categories' ) == 'tags' ) {
 		
 			$tags = get_post_meta($post->ID, 'related-tag', true);
 			
