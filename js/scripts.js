@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
 /*  Parallax single post featured image
 /* ------------------------------------ */		
 	$(window).scroll(function () {
-		$(".main-header-single").css("background-position","center " + ($(this).scrollTop() / 25 + 50) + "%");
+		$(".main-header-single").css("background-position","center " + ($(this).scrollTop() / 20 + 50) + "%");
 	});	
 	
 /*  Tabs widget
