@@ -74,7 +74,8 @@ Sidebar images
 
 == Changelog ==
 
-= 1.0.9 - 2024-03-26 =
+= 1.0.9 - 2024-03-27 =
+* Fixed related posts default option
 * Added more content padding for 1680px+ screens
 * Updated screenshot
 
