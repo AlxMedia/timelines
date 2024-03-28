@@ -343,7 +343,7 @@ if ( ! function_exists( 'timelines_site_title' ) ) {
 		$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 		
 		// Text or image?
-		if ( has_custom_logo() ) {
+		if ( has_custom_logo() && $logo !== false ) {
 			$logo = '<img src="'. esc_url( $logo[0] ) .'" alt="'.esc_attr( get_bloginfo('name')).'">';
 		} else {
 			$logo = esc_html( get_bloginfo('name') );

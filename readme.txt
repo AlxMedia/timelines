@@ -74,6 +74,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.1 - 2024-03-28 =
+* Fixed site logo php warning
+
 = 1.1.0 - 2024-03-27 =
 * Added parallax effect to single post featured image
 * Fixed minor design tweaks
