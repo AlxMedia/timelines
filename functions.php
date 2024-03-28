@@ -344,7 +344,7 @@ if ( ! function_exists( 'timelines_site_title' ) ) {
 		
 		// Text or image?
 		if ( has_custom_logo() ) {
-			$logo = '<img src="'. esc_url( $logo[0] ) .'" alt="'.esc_attr( get_bloginfo('name')).'">';;
+			$logo = '<img src="'. esc_url( $logo[0] ) .'" alt="'.esc_attr( get_bloginfo('name')).'">';
 		} else {
 			$logo = esc_html( get_bloginfo('name') );
 		}
