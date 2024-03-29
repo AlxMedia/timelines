@@ -52,6 +52,8 @@ body:where(.light) .list-card-category a { color: rgba(0,0,0,0.5); }
 body:where(.light) .featured-card-category { color: rgba(0,0,0,0.5); }
 body:where(.light) .featured-card-category a { color: rgba(0,0,0,0.5); }
 
+body:where(.light) .slick-featured-alt a:hover { color: #fff; }
+
 body:where(.light) .left-sidebar { border-right: 1px solid rgba(0,0,0,0.06); }
 body:where(.light) .sticky-heading a { color: rgba(0,0,0,0.1); }
 body:where(.light) .sticky-heading:after { background: rgba(0,0,0,0.06); }

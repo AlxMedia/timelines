@@ -19,6 +19,7 @@
 	.category-featured-cards .featured-card-outer { margin-bottom: 40px; }
 	.category-featured-cards .featured-card-outer:nth-child(1) .featured-card { margin-right: 20px; }
 	.category-featured-cards .featured-card-outer:nth-child(2) .featured-card { margin-left: 20px; }
+	.slick-featured-alt { margin-top: 20px; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -71,6 +72,12 @@
 	.main-header-single-meta li.single-meta-author { margin-left: 0; }
 	.main-header-single-meta .single-meta-text { font-size: 12px; }
 	.main-header-single-meta .single-meta-comments { font-size: 16px; height: 30px; line-height: 30px; margin: 15px 0 15px 10px; }
+	
+	.slick-featured-alt .alt-mobile-link { display: block; }
+	.slick-featured-alt .slick-slide > div > div { display: block!important; }
+	.slick-featured-alt .main-header-single-wrap { margin: 0 1px; }
+	.slick-featured-alt .sharrre-header,
+	.slick-featured-alt .main-header-single-meta { display: none; }
 }
 
 @media only screen and (max-width: 600px) {

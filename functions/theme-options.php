@@ -99,6 +99,15 @@ Kirki::add_field( 'timelines_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Blog: Featured Alt Layout
+Kirki::add_field( 'timelines_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'featured-alt',
+	'label'			=> esc_html__( 'Featured Alternative Layout', 'timelines' ),
+	'description'	=> esc_html__( 'Large main story featured', 'timelines' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
 // Blog: Featured Posts Include
 Kirki::add_field( 'timelines_theme', array(
 	'type'			=> 'switch',

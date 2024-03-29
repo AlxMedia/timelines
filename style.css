@@ -1,7 +1,7 @@
 /*
 Theme Name: Timelines
 Theme URI: http://alx.media/themes/timelines/
-Version: 1.1.1
+Version: 1.1.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.4
@@ -720,6 +720,12 @@ body.featured-fade .slick-featured-inner { position: relative; mask-image: linea
 .featured-card:hover { background: rgba(255,255,255,0.15); }
 .featured-card:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.15); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 .featured-card:hover:after { border-color: rgba(255,255,255,0.3); }
+
+.slick-featured-alt .alt-mobile-link { display: none; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 3; }
+.slick-featured-alt .slick-featured-inner { mask-image: none!important; }
+.slick-featured-alt .slick-posts-nav .slick-prev, 
+.slick-featured-alt .slick-posts-nav .slick-next { margin-left: 0; margin-right: 0; }
+.slick-featured-alt a { color: #fff; }
 
 .related-posts .featured-card { margin: 0 20px 20px; }
 .related-posts .featured-card-content { padding: 10px 20px; }

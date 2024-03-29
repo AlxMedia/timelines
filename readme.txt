@@ -74,6 +74,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.2 - 2024-03-29 =
+* Added alternative featured posts slider with one large entry per slide
+
 = 1.1.1 - 2024-03-28 =
 * Fixed site logo php warning
 

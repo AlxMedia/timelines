@@ -1,8 +1,11 @@
 <div class="main-header-single-wrap">
+	
+	<a class="alt-mobile-link" href="<?php the_permalink(); ?>" ></a>
+	
 	<div class="main-header-single" style="background-image:url('<?php the_post_thumbnail_url('timelines-large'); ?>');">
 
 		<div class="main-header-single-title">
-			<h1><?php the_title(); ?></h1>
+			<h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php do_action( 'alx_ext_sharrre' ); ?>
 		</div>
 		

@@ -68,8 +68,12 @@
 						</div>
 					</div>
 				<?php endif; ?>
-			
-				<?php get_template_part('inc/featured'); ?>
+				
+				<?php if ( get_theme_mod( 'featured-alt', 'off' ) == 'on' ): ?>
+					<?php get_template_part('inc/featured-alt'); ?>
+				<?php else: ?>
+					<?php get_template_part('inc/featured'); ?>
+				<?php endif; ?>
 				
 				<?php if ( is_single() ): ?>
 					<?php get_template_part('inc/single-header'); ?>

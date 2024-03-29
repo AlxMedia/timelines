@@ -134,6 +134,22 @@ jQuery(document).ready(function($) {
 	});
 	$('.slick-posts').show();	
 
+	$(".slick-posts-alt").randomize().slick({
+	  slidesToShow: 1,
+	  appendArrows: '.slick-posts-nav',
+	  responsive: [
+		{
+		  breakpoint: 719,
+		  settings: {
+			arrows: false,
+			centerMode: true,
+			centerPadding: '20px',
+		  }
+		}
+	  ]
+	});
+	$('.slick-posts-alt').show();	
+
 /*  Trap focus
 /* ------------------------------------ */	
 	// add all the elements inside modal which you want to make focusable
