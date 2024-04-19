@@ -516,19 +516,6 @@ if ( ! function_exists( 'timelines_excerpt_length' ) ) {
 add_filter( 'excerpt_length', 'timelines_excerpt_length', 999 );
 
 
-/*  Comments avatar size
-/* ------------------------------------ */
-if ( ! function_exists( 'timelines_comments_avatar_size' ) ) {
-	
-	function timelines_comments_avatar_size( $args ) {
-		$args['avatar_size'] = 64;
-		return $args;
-	}
-	
-}
-add_filter( 'wp_list_comments_args', 'timelines_comments_avatar_size' );
-
-
 /* ------------------------------------------------------------------------- *
  *  Actions
 /* ------------------------------------------------------------------------- */	

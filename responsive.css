@@ -169,6 +169,9 @@
 	.entry-content,
 	.entry-footer { padding-right: 20px; padding-left: 20px; }
 	
+	.comments-nav .next,
+	.comments-nav .prev { width: 100%; }
+	
 	.related-title { font-size: 14px; }
 	
 	.notebox { font-size: 13px; }

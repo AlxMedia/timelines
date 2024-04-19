@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Timelines\n"
-"POT-Creation-Date: 2024-03-29 21:38+0100\n"
+"POT-Creation-Date: 2024-04-19 13:05+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,6 +18,36 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: functions/class-tgm-plugin-activation.php\n"
 "X-Poedit-SearchPathExcluded-1: functions/kirki\n"
+
+#: comments.php:20
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:23
+#, php-format
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:58
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments"
+msgstr ""
+
+#: comments.php:106
+msgid "Comments are closed."
+msgstr ""
 
 #: content-featured-alt.php:28 inc/single-header.php:25
 msgid "Author"
@@ -91,19 +121,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:599
+#: functions.php:586
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:603
+#: functions.php:590
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:607
+#: functions.php:594
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:611
+#: functions.php:598
 msgid "WP-PageNavi"
 msgstr ""
 
