@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique responsive double sidebar design, including dark/light mode. With extensive styling options you can make your own design, changing to unlimited background and accent colors, add element border radius and much more. Demo: http://demo.alx.media/x/?theme=Timelines
+Timelines is a flexible blog and magazine theme with plenty of options. Optimized for all devices, this theme will stand out with a unique responsive double sidebar design, including dark/light mode. With extensive styling options you can make your own design, changing to unlimited background and accent colors, add element border radius and much more. Demo: https://demo.agnarson.com/?theme=Timelines
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Timelines is a flexible blog and magazine theme with plenty of options. Optimize
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
